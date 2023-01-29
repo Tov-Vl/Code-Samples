@@ -1,6 +1,6 @@
 # Code-Samples-AgentRateImportService
 
-Code samples from the project AgentRateImportService I've worked on for the C#/.NET Backend Developer position.
+Code samples for the C#/.NET Backend Developer position from the project AgentRateImportService I've worked on.
 
 AgentRateImportService is a service for importing the rate of the mount engineers into the WFM (Workforce Management System).
 
