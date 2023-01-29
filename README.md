@@ -6,7 +6,7 @@ AgentRateImportService is a service for importing the rate of the mount engineer
 
 ## Files description
 
-- `AgentRateEntities` - Entity Framework's DbContext
+- `AgentRateEntities` - Entity Framework's DbContext.
 - `AgentRepository` - Agents repository with `GetAgents()` method, returning all the agents (mount engineers) from DB.
 - `CachingSoEngineerRepository` - `SoEngineerRepository`'s decorator for caching all of its results for all the invocations of the `GetSoEnginners()` method during a single request (via registering it using `PerResolveLifetimeManager` in DI container in `ImportServiceHostFactory`).
 - `ImportService` - The class implementing the service's API (`Import()` method).
